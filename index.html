@@ -7,16 +7,24 @@
     <title></title>
 </head>
 <body>
-     <img class="banneri" src="img/banneri.jpg" alt="projektin bannerikuva.jpg">
+     <img class="banneri" src="img/banneri.jpg" alt="projektin bannerikuva.jpg" >
      <header> 
-        <h1><strong>Portfolio</strong></h1> 
-        <p><strong>Tieto- ja viestintä tekniikan opiskelija Pokella</strong></p> 
+        <h1 class=""><strong>Portfolio</strong></h1> 
+        <p><strong>Tieto- ja viestintätekniikan opiskelija Pokella</strong></p> 
          
      </header>
+       <nav class="päävalikko">
+         <a href="index.html" class="nappi">Etusivu</a> 
+         <a href="#esittely" class="nappi">Esittely</a>
+         <a href="#projektit" class="nappi">Projektit</a>
+         <a href="#yhteystiedot" class="nappi">Ota yhteyttä</a>
+          <a href="cv.html" class="nappi">Työhistoria (CV)</a>
+        </nav>
+
       <main> 
         <section id="esittely"> 
          <h2>Esittely</h2> 
-         <img class=profiili src="img/profiilikuva.jpg" alt="Jarno Saarinen" width="300">  
+         <img class=profiili src="img/profiilikuva.jpg" alt="Jarno Saarinen">  
               <p>
                Olen <strong>Jarno Saarinen</strong>, tieto- ja viestintätekniikan opiskelija Pokella Äänekoskella. </p>
              <p>Aikaisempi työkokemus ja työt rakennuksilta rakennusmiehenä ja maalarina 25 vuoden ajalta.
@@ -26,15 +34,18 @@
          
 
         </section> 
-        <img class=capoeira src="img/capoeira.jpg" alt="Capoeira.jpg" width="300">
+        <img class=capoeira src="img/capoeira.jpg" alt="Capoeira.jpg" >
 
          <section id="it-työt"> 
-            <h2>IT-alan työt</h2>
-            <ul>
-              <p>Jyväskylän Hyvän olon pisteen verkkosivuston uusiminen 2025, sekä sivuston ylläpito.</p>
-              <a href="https://www.hyvanolonpiste.fi" target="_blank">Sivustolle hyvänolonpiste.fi.</a>
-            </ul>
-         </section>
+    <h2>IT-alan työt</h2>
+    
+    <p>Jyväskylän Hyvän olon pisteen verkkosivuston uusiminen 2025, sekä sivuston ylläpito.</p>
+    
+    <a href="https://www.hyvanolonpiste.fi" target="_blank" class="nappi-pieni">
+        Siirry sivustolle hyvänolonpiste.fi
+    </a>
+
+</section>
         
         <section id="osaaminen"> 
             <h2>Osaaminen</h2> 
@@ -50,22 +61,23 @@
       <section id="projektit"> 
        <h2>Projektit</h2> 
        <p>Tähän tulee kurssin aikana tehtyjä projekteja.</p> 
-      </section> <section id="yhteystiedot"> <h2>Yhteystiedot</h2> 
-       <p>Ota yhteyttä sähköpostitse tai verkostoidu LinkedInissä:</p>
+      <section id="yhteystiedot"> 
+    <h2>Yhteystiedot</h2> 
+    
+    <div class="kontaktikortti">
+        <p>Kiinnostuitko osaamisestani? Ota rohkeasti yhteyttä sähköpostitse tai verkostoidu LinkedInissä.</p>
+        
+        <div class="kontaktinapit">
+            <a href="mailto:saarinen.jarno@outlook.com" class="nappi-kontakti">
+                Lähetä sähköpostia
+            </a>
 
-      <ul>
-         <li>
-            Sähköposti:
-            <a href="mailto:saarinen.jarno@outlook.com">saarinen.jarno@outlook.com</a>
-         </li>
-         <li>
-            LinkedIn: 
-            <a href="https://fi.linkedin.com/in/jarno-saarinen-80100635b/"
-            target="_blank">LinkedIn Profiili</a>
-         </li>
-        </ul>        
-
-      </section> 
+            <a href="https://fi.linkedin.com/in/jarno-saarinen-80100635b/" target="_blank" class="nappi-kontakti">
+                LinkedIn Profiili
+            </a>
+        </div>
+    </div>
+</section>
      </main> 
     
      <footer> 
