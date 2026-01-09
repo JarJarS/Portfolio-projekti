@@ -14,6 +14,7 @@
 
 ## Päivitetty tekstiä.
 
+## Portfolion julkaiseminen.
 Tekijä: Jarno Saarinen
 
 
