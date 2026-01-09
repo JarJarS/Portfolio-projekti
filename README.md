@@ -14,7 +14,10 @@
 
 ## Päivitetty tekstiä.
 
-## Portfolion julkaiseminen.
+## Portfolion linkki https://jarjars.github.io/Portfolio-projekti/index.html .
+
+
+
 Tekijä: Jarno Saarinen
 
 
