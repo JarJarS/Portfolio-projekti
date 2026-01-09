@@ -84,8 +84,6 @@ h2 {
 .navigointi {
     display: center;
     text-align: center;
-    
-
 }
 
 
@@ -197,4 +195,33 @@ h2 {
 .nappi-pieni:hover {
     background-color: #e06b00;   
     transform: scale(1.05);      
+}
+
+/* =========================================
+   TULOSTUSASETUKSET (Print Media Query)
+   Tämä koodi toimii vain tulostettaessa tai PDF-tallennuksessa
+   ========================================= */
+@media print {
+    .päävalikko, .nappi-pieni, .banneri, footer, button {
+        display: none !important;
+    }
+   
+    body, main, header {
+        background-color: white !important;
+        color: black !important;
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .cv-lista li, .tiedot {
+        box-shadow: none !important;
+        border: none !important;
+        border-bottom: 1px solid #ccc !important; 
+        page-break-inside: avoid; 
+    }
+    a {
+        text-decoration: none !important;
+        color: black !important;
+    }
 }
