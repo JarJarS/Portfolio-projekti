@@ -1,23 +1,25 @@
 # Portfolio-projekti
 
-## Projektin tarkoituksena on toimia henkilökohtaisena portfoliona, jossa esittelen osaamistani ja kurssin aikana tehtyjä projekteja.
+Tämä on henkilökohtainen portfolioni, jonka tarkoituksena on esitellä osaamistani, työhistoriaani ja opintojeni aikana tehtyjä projekteja. Sivusto toimii digitaalisena käyntikorttina mahdollisille työnantajille.
 
-## Tämä sivu  on tarkoitettu opettajalle, mahdollisille työnantajille sekä muille, jotka ovat kiinnostuneita osaamisestani.
+## 🔗 Julkaisu
+**Projektin verkkoversio:** https://jarjars.github.io/Portfolio-projekti/
 
-## Käytettävät teknologiat -HTML -CSS -JavaScript -Git -GitHub
+## 🛠️ Ominaisuudet ja päivitykset
+Projektiin on lisätty seuraavat toiminnallisuudet ja laajennukset:
+* **CV-sivu:** Erillinen sivu (`cv.html`), jossa on kattava työhistoria ja koulutustiedot.
+* **Tulostustoiminto:** JavaScriptillä toteutettu "Tulosta CV / Tallenna PDF" -painike.
+* **Tyylittely:** CSS-tyylit on päivitetty yhtenäiseksi ja ulkoasua parannettu (mm. osaamispalkit, navigaatio).
+* **Responsiivisuus:** Sivusto skaalautuu eri kokoisille näytöille.
 
-## Kuvat: Profiilikuva, harrastuskuva capoeira, bannerikuva: Lähde: Omat kuvat / Kuvaaja/ Tekijä. Jarno Saarinen © 2026 Jarno Saarinen
-   
-## Projektin laajennus, Lisätty Cv.html, listattu työhistoria ja pdf tallennus/ tulostusmahdollisuus.
+## 💻 Käytetyt teknologiat
+* HTML5
+* CSS3
+* JavaScript
 
-## Lisätty tyylittelyä ja script.js. 
+## 📷 Tekijänoikeudet ja kuvat
+* **Profiilikuva, harrastuskuva (capoeira) ja bannerikuva:** Omat kuvat.
+* **Kuvaaja / Tekijä:** Jarno Saarinen © 2026
 
-## Päivitetty tekstiä.
-
-## Portfolion linkki https://jarjars.github.io/Portfolio-projekti/index.html .
-
-
-
-Tekijä: Jarno Saarinen
-
-
+---
+**Tekijä:** Jarno Saarinen
