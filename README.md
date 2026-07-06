@@ -11,6 +11,8 @@ Projektiin on lisätty seuraavat toiminnallisuudet ja laajennukset:
 * **Tulostustoiminto:** JavaScriptillä toteutettu "Tulosta CV / Tallenna PDF" -painike.
 * **Tyylittely:** CSS-tyylit on päivitetty yhtenäiseksi ja ulkoasua parannettu (mm. osaamispalkit, navigaatio).
 * **Responsiivisuus:** Sivusto skaalautuu eri kokoisille näytöille.
+* **Päivitetty tietoja cv.n osalta
+* **Päivitetty esittely, osaaminen ja projektit osiota. 
 
 ## 💻 Käytetyt teknologiat
 * HTML5
